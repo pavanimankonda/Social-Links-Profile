@@ -18,7 +18,7 @@ body {
 .container {
     width: 90%; 
     max-width: 320px;
-    height: 75vh;
+    
     font-family: "Inter", sans-serif;
     color: hsl(0, 0%, 100%);
     background-color: hsl(0, 0%, 12%);
