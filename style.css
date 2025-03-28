@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 8%);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow: hidden
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.container {
+    width: 90%; 
+    max-width: 320px;
+    height: 75vh;
+    font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 30px;
+    margin-bottom: 0;
+}
+
+.content {
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+p {
+    background-color: hsl(0, 0%, 12%);
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 25px;
+
+}
+
+.place {
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    background-color: hsl(0, 0%, 12%);
+    font-size: 11px;
+    margin-bottom: 23px;
+}
+
+.links {
+    background-color: hsl(0, 0%, 12%);
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 15px; 
+   
+ 
+}
+
+.link1,
+.link2,
+.link3,
+.link4,
+.link5 {
+    width: 100%; /* Makes links take 90% of the container width */
+    max-width: 260px;
+    background: hsl(0, 0%, 20%);
+    padding: 13px 0;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-sizing: border-box;
+}
+
+
+.links div:hover {
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(75, 94%, 57%);
+}
+
+.desc {
+    background-color: hsl(0, 0%, 12%);
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 23px;
+}
+
